@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:local="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
@@ -65,4 +65,9 @@
         local:MvxBind="Text Tip"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp" />
+
+     <mvvmcross.platforms.android.binding.views.MvxSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        local:MvxBind="ItemsSource Ejemplos;SelectedItem Ejemplo"/>
 </LinearLayout>

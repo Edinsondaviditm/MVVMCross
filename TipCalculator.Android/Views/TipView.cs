@@ -11,7 +11,7 @@ namespace TipCalculator.Android.Views
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-			SetContentView(Resource.Layout.TipPage);
+			this.SetContentView(Resource.Layout.TipPage);
 		}
 	}
 }
